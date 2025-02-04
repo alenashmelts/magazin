@@ -1,0 +1,47 @@
+:root {
+    --discount: rgba(255, 82, 82, 1);
+    --bg-btn: rgba(74, 88, 246, 1);
+    --color-text: black;
+
+    --font-size-card: 14px;
+    --font-size-card-price: 20px;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;   
+}
+
+
+
+/*-------------Карточка товара-------------------*/
+
+.catalog{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.catalog__filter{
+    
+
+}
+
+
+
+.catalog__title{
+    color: var(--color-text);
+    text-decoration: none;
+}
